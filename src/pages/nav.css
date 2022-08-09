@@ -1,14 +1,62 @@
-.Logo {
-    pointer-events: none;
-    align-items: left;
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282c34;
 }
 
-.Nav-header {
+
+
+.title {
     background-color: #282c34;
+    flex-wrap: wrap;
+    font-size: calc(20px + 2vmin);
+    color: #edf1f4;
+    font-size: 40px;
+}
+
+.Logo {
+    pointer-events: none;
+}
+
+.nav-list li {
+    list-style: none;
+    text-align: center;
+    color: #282c34;
+    font-weight: 500;
+}
+
+.nav-list li:hover {
+    text-decoration: underline;
+    transition-delay: 2s;
+}
+
+.navigation-row {
+    /* background-color: rgb(236, 242, 242); */
+    opacity: 80%;
+    margin-top: 20px;
+
+    background: #828c95;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b', GradientType=0);
+    /* IE6-9 */
+}
+
+.nav-column {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: top;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.nav-column-logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 20px;
 }

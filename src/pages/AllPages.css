@@ -1,0 +1,128 @@
+/*-------------------------------------------------------Important Notes----------------------------------------------------------------------
+
+- Text colour schemes:  #282c34 is used for card text
+- The awesome website for the colour gradient used on cards and the nav bar is: https://www.colorzilla.com/gradient-editor/
+
+/*
+
+
+
+
+/*--------------------------------------------------Drinks Landing Page Section Below--------------------------------------------------------*/
+
+.page-title {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: #c9d3db;
+}
+
+.drinks-landing-page-content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #282c34;
+    font-weight: 800;
+
+}
+
+.page-container {
+    background-color: #282c34;
+}
+
+div.col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.landing-page-card {
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+    background: #828c95;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.separator-row {
+    margin: 20px;
+    color: #282c34;
+}
+
+button {
+    color: #c9d3db;
+    background-color: #282c34;
+    box-shadow: 0 8px 16px 0 #282c34(0, 0, 0, 0.2), 0 6px 20px 0 #282c34(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-width: 1.5px;
+    font-size: smaller;
+
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+/*-------------------------------------------------------Venue Page Section Below------------------------------------------------------------*/
+
+.venue-page-card {
+    background-color: #753030;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card-title.h5 {
+    color: #282c34;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+div.card-subtitle.h6 {
+    color: #282c34;
+    font-weight: 500;
+
+}
+
+p.card-text {
+    color: #282c34;
+    font-weight: 500;
+    text-align: center;
+}
+
+.venue-page-column {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue-page-card {
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background: #828c95;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b', GradientType=0);
+    /* IE6-9 */
+
+}

@@ -1,26 +1,33 @@
-import { Col, Row } from 'react-bootstrap';
+import React from 'react';
+// import ReactDOM from 'react-dom';
+import { Col, Row, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+//css
 import '././nav.css'
 
 //Images
 import Logo from '../images/logo-white.svg'
 
+
 function Nav() {
     return (
-        <nav className='Nav-header'>
+        <nav className='nav-header'>
 
+            <Container fluid>
+                <Row>
+                    <Col className='nav-column-logo'> <img src={Logo} height="80" width="80" className="Logo" alt='logo' /> </Col>
+                    <Col className='nav-column'> <h1 className='title'>LittleBigLeeds</h1> </Col>
+                    <Col className='nav-column'> </Col>
+                </Row>
 
-            <Row>
-                <Col>
-                    <img src={Logo} height="100" width="100" className="Logo" />
-                </Col>
-
-                <Col>
-                    <h1>LittleBigLeeds</h1>
-                </Col>
-
-            </Row>
-
-
+                <Row className='navigation-row'>
+                    <Col className='nav-list' > <Link to='/' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList' > Home </li></Link> </Col>
+                    <Col className='nav-list' > <Link to='/drinks' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li> Drinks </li></Link> </Col>
+                    <Col className='nav-list' > <Link to='/food' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList'> Food </li></Link> </Col>
+                    <Col className='nav-list' > <Link to='/drinksandfood' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList'> Drinks & Food </li></Link> </Col>
+                </Row>
+            </Container>
         </nav>
     );
 }
