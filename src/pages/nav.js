@@ -16,7 +16,7 @@ function Nav() {
 
             <Container fluid>
                 <Row>
-                    <Col className='nav-column-logo'> <img src={Logo} height="80" width="80" className="Logo" alt='logo' /> </Col>
+                    <Col className='nav-column-logo'> <img src={Logo} height="90" width="90" className="Logo" alt='logo' /> </Col>
                     <Col className='nav-column'> <h1 className='title'>LittleBigLeeds</h1> </Col>
                     <Col className='nav-column'> </Col>
                 </Row>

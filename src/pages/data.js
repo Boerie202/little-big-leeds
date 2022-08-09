@@ -6,12 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
+
+//Data for the Cosy Vibes Page
 export function CosyDrinksData() {
     return (
         <div>
             <Container fluid >
-
-
                 <Col className='venue-page-column'>
                     <Card className='venue-page-card'  >
                         <Card.Title>Blind Tyger</Card.Title>
@@ -54,12 +54,9 @@ export function CosyDrinksData() {
                         <Card.Title>Outlaws Yacht Club</Card.Title>
                         <Card.Subtitle>Couches, just allll the couches.</Card.Subtitle>
                         <br></br>
-                        <Card.Text>Comfy seating to sink in to or cuddle up, board games and quiz nights. A down to earth, easy-going vibe.</Card.Text>
+                        <Card.Text>Comfy seating to sink in to or cuddle up, board games and quiz nights. A down to earth and easy-going setting.</Card.Text>
                     </Card>
                 </Col>
-
-
-
             </Container >
         </div>
     )
