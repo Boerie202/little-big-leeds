@@ -4,8 +4,6 @@
     background-color: #282c34;
 }
 
-
-
 .title {
     background-color: #282c34;
     flex-wrap: wrap;
@@ -35,6 +33,8 @@
     opacity: 80%;
     margin-top: 40px;
     padding: 4px;
+
+
 
     background: #828c95;
     /* Old browsers */

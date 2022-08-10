@@ -1,12 +1,9 @@
 /*-------------------------------------------------------Important Notes----------------------------------------------------------------------
 
-- Text colour schemes:  #282c34 is used for card text
+- Text colour schemes:  #282c34 is used for venue row text
 - The awesome website for the colour gradient used on cards and the nav bar is: https://www.colorzilla.com/gradient-editor/
 
 /*
-
-
-
 
 /*--------------------------------------------------Drinks Landing Page Section Below--------------------------------------------------------*/
 
@@ -25,7 +22,8 @@
     margin-top: 25px;
     margin-bottom: 20px;
     color: #282c34;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: x-large;
 
 }
 
@@ -78,41 +76,17 @@ button:hover {
 
 /*-------------------------------------------------------Venue Page Section Below------------------------------------------------------------*/
 
-.venue-page-card {
-    background-color: #753030;
-    align-items: center;
-    justify-content: center;
-}
-
-div.card-title.h5 {
-    color: #282c34;
-    font-weight: 700;
-    font-size: xx-large;
-}
-
-div.card-subtitle.h6 {
-    color: #282c34;
-    font-weight: 500;
-
-}
-
-p.card-text {
-    color: #282c34;
-    font-weight: 500;
-    text-align: center;
-}
-
-.venue-page-column {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.venue-page-card {
+.venue-page {
     border-radius: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
 
     background: #828c95;
     /* Old browsers */
@@ -125,4 +99,35 @@ p.card-text {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#828c95', endColorstr='#28343b', GradientType=0);
     /* IE6-9 */
 
+}
+
+/*Perks Section*/
+.venue-page li {
+    list-style: none;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+/*Title*/
+.venue-page h2 {
+    font-weight: 700;
+}
+
+/*Perks Section*/
+.venue-page h3 {
+    font-weight: 600;
+    font-size: large;
+}
+
+/*Subtitle*/
+.venue-page p {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+/*Menu & Gallery*/
+.additional-info-list li {
+    list-style: none;
+    font-size: large;
+    padding: 5px;
 }

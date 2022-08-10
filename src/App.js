@@ -1,6 +1,6 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //React Imports
 // import { Col, Row } from 'react-bootstrap';
