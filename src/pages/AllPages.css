@@ -1,6 +1,6 @@
 /*-------------------------------------------------------Important Notes----------------------------------------------------------------------
 
-- Text colour schemes:  #282c34 is used for venue row text
+- Text colour schemes:  #282c34 is used for venue row text (except for the "perks" text, this is #c9d3db)
 - The awesome website for the colour gradient used on cards and the nav bar is: https://www.colorzilla.com/gradient-editor/
 
 /*
@@ -76,6 +76,7 @@ button:hover {
 
 /*-------------------------------------------------------Venue Page Section Below------------------------------------------------------------*/
 
+/*Main row each venue sits in*/
 .venue-page {
     border-radius: 12px;
     padding-top: 25px;
@@ -86,6 +87,7 @@ button:hover {
     width: auto;
     margin-left: 20px;
     margin-right: 20px;
+
 
 
     background: #828c95;
@@ -101,11 +103,10 @@ button:hover {
 
 }
 
-/*Perks Section*/
-.venue-page li {
-    list-style: none;
-    font-weight: 500;
-    padding-bottom: 5px;
+/*Perks Section Title*/
+.venue-page h3 {
+    font-weight: 700;
+    font-size: large;
 }
 
 /*Title*/
@@ -113,21 +114,60 @@ button:hover {
     font-weight: 700;
 }
 
-/*Perks Section*/
-.venue-page h3 {
-    font-weight: 600;
-    font-size: large;
+/*Address*/
+.venue-page h6 {
+    font-weight: 300px;
 }
 
-/*Subtitle*/
+/*Perks Section*/
 .venue-page p {
     font-weight: 600;
-    padding-bottom: 10px;
+    margin: 0;
+    /* background-color: #282c34;
+    color: #c9d3db; */
 }
 
+/*Perks Section*/
+.p1 {
+    font-weight: 600;
+    margin: 0;
+    background-color: #282c34;
+    color: #c9d3db;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+/*Perks Section*/
+.p2 {
+    font-weight: 600;
+    margin: 0;
+    background-color: #282c34;
+    color: #c9d3db;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+/*Perks Section*/
+.p3 {
+    font-weight: 600;
+    margin: 0;
+    background-color: #282c34;
+    color: #c9d3db;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
 /*Menu & Gallery*/
-.additional-info-list li {
+.additional-info-list {
     list-style: none;
     font-size: large;
     padding: 5px;
+    font-weight: 500;
+}
+
+/*Menu & Gallery Coming Soon*/
+.coming-soon {
+    font-style: italic;
+    font-size: small;
 }

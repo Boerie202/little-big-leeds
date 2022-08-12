@@ -15,7 +15,7 @@ function drinksPage() {
     return (
         <div className='page-container'>
             <h2 className='page-title'>
-                Drinks
+                Drinks -
             </h2>
             <Container fluid>
                 <Row>
