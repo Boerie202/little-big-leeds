@@ -5,9 +5,11 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-//Venue Template
+//-----------------------------------------------------Venue Template-------------------------------------------------------------------
 
-{/* <Row className='d-flex align-items-center justify-content-center venue-page'>
+{/* 
+<Container fluid >
+<Row className='d-flex align-items-center justify-content-center venue-page'>
 <Col><h2>Title</h2><h6>Address</h6></Col>
 <Col><h3>Perks</h3>
     <p className='p1'>Perk1</p><br />
@@ -15,10 +17,13 @@ import 'bootstrap/dist/css/bootstrap.css';
     <p className='p3'>Perk3</p>
 </Col>
 <Col className='additional-info-list'><li>Gallery</li><li className='coming-soon'>Coming Soon</li><li>Menu</li><li className='coming-soon'>Coming Soon</li></Col>
-</Row> */}
+</Row>
+<Row className='separator-row' /> 
+</Container>
+*/}
 
 
-//Data for the Cosy Vibes Page
+//-------------------------------------------------Data for the Cosy Vibes page---------------------------------------------------------
 export function CosyDrinksData() {
     return (
 
@@ -88,5 +93,39 @@ export function CosyDrinksData() {
         </Container >
 
 
+    )
+}
+
+//-------------------------------------------------Data for the Fancy Vibes page--------------------------------------------------------
+export function ClassyDrinksData() {
+
+    return (
+
+        <Container fluid >
+
+            <Row className='d-flex align-items-center justify-content-center venue-page'>
+                <Col><h2>The Alchemist</h2><h6>Yorkshire House, Greek St, Leeds LS1 5SH</h6></Col>
+                <Col><h3>Perks</h3>
+                    <p className='p1'>Interesting drinks</p><br />
+                    <p className='p2'>Trim interior</p><br />
+                    <p className='p3'>Friendly staff</p>
+                </Col>
+                <Col className='additional-info-list'><li>Gallery</li><li className='coming-soon'>Coming Soon</li><li>Menu</li><li className='coming-soon'>Coming Soon</li></Col>
+            </Row>
+
+            <Row className='separator-row' />
+
+            <Row className='d-flex align-items-center justify-content-center venue-page'>
+                <Col><h2>Angelica</h2><h6>Level 6, Trinity, 70 Boar Ln, Leeds LS1 6HW</h6></Col>
+                <Col><h3>Perks</h3>
+                    <p className='p1'>Great views</p><br />
+                    <p className='p2'>Outdoor terrace</p><br />
+                    <p className='p3'>Attention to detail</p>
+                </Col>
+                <Col className='additional-info-list'><li>Gallery</li><li className='coming-soon'>Coming Soon</li><li>Menu</li><li className='coming-soon'>Coming Soon</li></Col>
+            </Row>
+
+
+        </Container>
     )
 }

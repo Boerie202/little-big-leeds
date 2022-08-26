@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Blind Tyger",
+        "address": "5 Cross Belgrave St, Leeds LS2 8JP",
+        "perks": [
+            "Complimentary drink on arrival",
+            "Low lighting, speak easy setting",
+            "Great cocktail list"
+        ]
+    },
+    {
+        "name": "Whitelocks",
+        "address": "Turk's Head Yard, Leeds LS1 6HB",
+        "perks": [
+            "Historic atmosphere",
+            "Outdoor seating",
+            "Warm in winter"
+        ]
+    }
+]

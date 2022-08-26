@@ -15,7 +15,7 @@ function drinksPage() {
     return (
         <div className='page-container'>
             <h2 className='page-title'>
-                Drinks -
+                Drinks
             </h2>
             <Container fluid>
                 <Row>
@@ -28,7 +28,7 @@ function drinksPage() {
                     <Col>
                         <Card className='landing-page-card'>
                             <Card.Title className='drinks-landing-page-content'>Classy Vibes</Card.Title>
-                            <button>More info</button>
+                            <Link to='/drinks_venues_classy' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <button>More info</button></Link>
                         </Card>
                     </Col>
                 </Row>
