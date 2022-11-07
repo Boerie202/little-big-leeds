@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 //css
-import '././nav.css'
+import '././AllPages.css'
 
 //Images
 import Logo from '../images/logo-white.svg'
