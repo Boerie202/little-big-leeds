@@ -24,14 +24,14 @@ function DrinksCosy () {
 
                 {Venues && Venues.map((venue) => {
                     return (
-                        <div key = {venue.id}>
+                        <div key = {venue.id} className="venue row">
                     
                                 <h2> {venue.name} </h2>
                                 <h6> {venue.address} </h6>
                                 
                                  <h3>Perks</h3>
-                                    <p className='p1'> {venue.perks[0]} </p> <br />
-                                    <p className='p2'> {venue.perks[1]} </p> <br />
+                                    <p className='p1'> {venue.perks[0]} </p>
+                                    <p className='p2'> {venue.perks[1]} </p>
                                     <p className='p3'> {venue.perks[2]} </p>
                             
                             <Col className='additional-info-list'><li>Gallery</li><li className='coming-soon'>Coming Soon</li><li>Menu</li><li className='coming-soon'>Coming Soon</li></Col>
