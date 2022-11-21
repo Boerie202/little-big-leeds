@@ -164,6 +164,8 @@ button:hover {
 .venue-page .venue {
     margin-bottom: 20px;
     border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: #828c95;
     /* Old browsers */
     background: -moz-linear-gradient(top, #828c95 36%, #828c95 36%, #b5bdc8 100%, #28343b 100%);
@@ -192,7 +194,8 @@ button:hover {
     font-weight: 300px;
 }
 
-/*Perks Section*/
+/* Perks Section */
+
 .venue-page p {
     font-weight: 600;
     margin: 10px;
@@ -200,14 +203,15 @@ button:hover {
     color: #c9d3db; */
 }
 
-/*Perks Section*/
+/*Perks Section text*/
 .p1 {
     font-weight: 600;
     margin: 0;
     background-color: #282c34;
     color: #c9d3db;
     border-radius: 12px;
-    padding: 5px;
+    padding: 5px;   
+    width: fit-content; 
 }
 
 /*Perks Section*/
@@ -243,6 +247,7 @@ button:hover {
 .coming-soon {
     font-style: italic;
     font-size: small;
+    list-style: none;
 }
 
 

@@ -1,7 +1,4 @@
 import React from 'react';
-// import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import './AllPages.css'
@@ -20,26 +17,29 @@ function DrinksCosy () {
                 Cosy Vibes
             </h2>
 
-            <Row className='d-flex align-items-center justify-content-center venue-page'>
+            <div className='d-flex align-items-center justify-content-center venue-page row'>
 
                 {Venues && Venues.map((venue) => {
                     return (
-                        <div key = {venue.id} className="venue row">
-                    
+                        <div key = {venue.id} className="venue">
+                            
                                 <h2> {venue.name} </h2>
                                 <h6> {venue.address} </h6>
-                                
+                           
                                  <h3>Perks</h3>
-                                    <p className='p1'> {venue.perks[0]} </p>
+                                    <p className=' !important p1 d-flex align-items-center justify-content-center'> {venue.perks[0]} </p>
                                     <p className='p2'> {venue.perks[1]} </p>
                                     <p className='p3'> {venue.perks[2]} </p>
-                            
-                            <Col className='additional-info-list'><li>Gallery</li><li className='coming-soon'>Coming Soon</li><li>Menu</li><li className='coming-soon'>Coming Soon</li></Col>
+                       
+                            <li className='additional-info-list'>Gallery</li>
+                                    <li className='coming-soon'>Coming Soon</li>
+                            <li className='additional-info-list'>Menu</li>
+                                    <li className='coming-soon'>Coming Soon</li>
                         
                         </div>
                     );
                 })}
-            </Row>
+            </div>
         </div>
         
     );
