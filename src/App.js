@@ -8,11 +8,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Page Imports
 import Nav from './pages/nav.js'//------------Navigation bar import
+import HomePage from './pages/home.js';
 import Drinks from './pages/Drinks.js'//------Drinks landing page import
 
 //Venue Page Imports: Drinks
 import DrinksCosy from './pages/drinks_venues_cosy'
 import DrinksClassy from './pages/drinks_venues_classy'
+import DrinksBar from './pages/drinks_venues_bar'
 
 
 
@@ -25,12 +27,13 @@ function App() {
 
         {/*----------------------------------------------Page Routing------------------------------------------------------*/}
         <Routes>
-          {/* <Route path='/' exact element={<Home />} /> */}
+          <Route path='/' exact element={<HomePage />} />
 
           {/* Routes to the drinks landing page and venue sub-pages */}
           <Route path='/Drinks' exact element={<Drinks />} />
           <Route path='/drinks_venues_cosy' exact element={<DrinksCosy />} />
           <Route path='/drinks_venues_classy' exact element={<DrinksClassy />} />
+          <Route path='/drinks_venues_bar' exact element={<DrinksBar />}></Route>
 
 
 

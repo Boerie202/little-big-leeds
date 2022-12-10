@@ -19,9 +19,9 @@
 .title {
     background-color: #282c34;
     flex-wrap: wrap;
-    font-size: calc(20px + 2vmin);
+    font-size: calc(35px + 2vmin);
     color: #edf1f4;
-    font-size: 40px;
+    letter-spacing: 3px;
 }
 
 .Logo {
@@ -76,15 +76,32 @@
 
 
 
-/*--------------------------------------------------Drinks Landing Page Section Below--------------------------------------------------------*/
+/*--------------------------------------------------Home Page Section Below--------------------------------------------------------*/
 
-.page-title {
-    text-align: center;
+.home-page h2{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 50px;
     color: #c9d3db;
 }
+
+.home-page p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+    margin-top: 40px;
+    font-weight: 500;
+    color: #c9d3db;
+    font-size: calc(4px + 2vmin);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+/*--------------------------------------------------Drinks Landing Page Section Below--------------------------------------------------------*/
 
 .drinks-landing-page-content {
     align-items: center;
@@ -96,10 +113,6 @@
     font-weight: 700;
     font-size: x-large;
 
-}
-
-.page-container {
-    background-color: #282c34;
 }
 
 div.col {
@@ -147,9 +160,27 @@ button:hover {
 
 /*-------------------------------------------------------Venue Page Section Below------------------------------------------------------------*/
 
+
+.page-container {
+    background-color: #282c34;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-title {
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: #c9d3db;
+}
+
+
 /*Main row each venue sits in*/
 .venue-page {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-bottom: 25px;
     align-items: center;
     justify-content: center;
@@ -162,7 +193,8 @@ button:hover {
 }
 
 .venue-page .venue {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    width: 80%;
     border-radius: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -204,14 +236,22 @@ button:hover {
 }
 
 /*Perks Section text*/
+.perks-section-all {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    
+}
+
 .p1 {
     font-weight: 600;
     margin: 0;
     background-color: #282c34;
     color: #c9d3db;
     border-radius: 12px;
-    padding: 5px;   
-    width: fit-content; 
+    padding: 5px;
 }
 
 /*Perks Section*/

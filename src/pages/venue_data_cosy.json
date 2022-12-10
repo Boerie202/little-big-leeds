@@ -1,0 +1,59 @@
+
+[
+        
+            {
+                "id": 1, 
+                "name": "Blind Tyger",
+                "address": "5 Cross Belgrave St, Leeds LS2 8JP",
+                "perks": [
+                    "Complimentary drink on arrival",
+                    "Low lighting, speak easy setting",
+                    "Great cocktail list"
+                ]
+            },
+
+            {
+                "id": 2,
+                "name": "Whitelocks",
+                "address": "Turk's Head Yard, Leeds LS1 6HB",
+                "perks": [
+                    "Historic atmosphere",
+                    "Outdoor seating",
+                    "Warm in winter"
+                ]
+            },
+
+            {
+                "id": 3,
+                "name": "Crowd of Favours",
+                "address": "4-12 Harper St, Leeds LS2 7EA",
+                "perks": [
+                    "Exposed brick interior",
+                    "Comfy seating",
+                    "Weekly pub quiz"
+                ]  
+            },
+        
+            {
+                "id": 4,
+                "name": "The Maven",
+                "address": "1 Call Ln, Leeds LS1 7DH",
+                "perks": [
+                    "Low lighting",
+                    "Secluded seating",
+                    "Large cocktail menu"
+                ]  
+            },
+
+            {
+                "id": 5,
+                "name": "Outlaws Yacht Club",
+                "address": "38 New York St, Leeds LS2 7DY",
+                "perks": [
+                    "Comfy seating",
+                    "Trendy interior",
+                    "Board games"
+                ]  
+            }
+ 
+ ]

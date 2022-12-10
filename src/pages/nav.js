@@ -26,7 +26,6 @@ function Nav() {
                     <Col className='nav-list' > <Link to='/' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList' > Home </li></Link> </Col>
                     <Col className='nav-list' > <Link to='/drinks' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li> Drinks </li></Link> </Col>
                     <Col className='nav-list' > <Link to='/food' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList'> Food </li></Link> </Col>
-                    <Col className='nav-list' > <Link to='/drinks-and-food' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList'> Drinks & Food </li></Link> </Col>
                 </Row>
             </Container>
         </nav>

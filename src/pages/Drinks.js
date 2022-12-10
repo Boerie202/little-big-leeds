@@ -37,13 +37,13 @@ function drinksPage() {
                     <Col>
                         <Card className='landing-page-card'>
                             <Card.Title className='drinks-landing-page-content'>Pub Vibes</Card.Title>
-                            <button>More info</button>
+                            <Link to='/drinks_venues_pub' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <button>More info</button></Link>
                         </Card>
                     </Col>
                     <Col>
                         <Card className='landing-page-card'>
                             <Card.Title className='drinks-landing-page-content'>Bar Vibes</Card.Title>
-                            <button>More info</button>
+                            <Link to='/drinks_venues_bar' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <button>More info</button></Link>
                         </Card>
                     </Col>
                 </Row>

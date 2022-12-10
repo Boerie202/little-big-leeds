@@ -7,30 +7,29 @@ import './AllPages.css'
 // import { CosyDrinksData } from './data.js';
 
 //JSON import
-import Venues from './venue_data';
+import cosyVenues from './venue_data_cosy';
 
 
 function DrinksCosy () {
     return (
-        <div className='page-container fluid'>
-            <h2 className='page-title'>
-                Cosy Vibes
-            </h2>
+        <div className='page-container'>
+            <h2 className='page-title'> Cosy Vibes </h2>
 
             <div className='d-flex align-items-center justify-content-center venue-page row'>
 
-                {Venues && Venues.map((venue) => {
+                {cosyVenues && cosyVenues.map((cosy) => {
                     return (
-                        <div key = {venue.id} className="venue">
+                        <div key = {cosy.id} className="venue">
                             
-                                <h2> {venue.name} </h2>
-                                <h6> {venue.address} </h6>
-                           
+                                <h2> {cosy.name} </h2>
+                                <h6> {cosy.address} </h6>
+
+                            <div className='perks-section-all'>
                                  <h3>Perks</h3>
-                                    <p className=' !important p1 d-flex align-items-center justify-content-center'> {venue.perks[0]} </p>
-                                    <p className='p2'> {venue.perks[1]} </p>
-                                    <p className='p3'> {venue.perks[2]} </p>
-                       
+                                    <p className='p1'> {cosy.perks[0]} </p>
+                                    <p className='p2'> {cosy.perks[1]} </p>
+                                    <p className='p3'> {cosy.perks[2]} </p>
+                            </div>
                             <li className='additional-info-list'>Gallery</li>
                                     <li className='coming-soon'>Coming Soon</li>
                             <li className='additional-info-list'>Menu</li>
