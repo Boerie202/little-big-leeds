@@ -4,6 +4,7 @@
             "id": 1, 
             "name": "Smokestack",
             "address": "159A Lower Briggate, Leeds, LS1 6LY",
+            "website": "https://smokestackleeds.co.uk/",
             "perks": [
                 "New Orloans inspired cocktails",
                 "Dance floor",
@@ -13,8 +14,9 @@
         
         {
             "id": 2, 
-            "name": "Cast Iron",
+            "name": "Cast Iron Bar & Grill",
             "address": "4 Trevelyan Sq, Boar Ln, Leeds, LS1 6ET",
+            "website": "https://www.tableresmarriott.com/cast-iron-bar-grill-restaurant-leeds",
             "perks": [
                 "Lower music volume",
                 "Ample seating",
@@ -26,6 +28,7 @@
             "id": 3, 
             "name": "Belgrave Music Hall & Canteen",
             "address": "Cross Belgrave St, Leeds, LS2 8JP",
+            "website": "https://www.belgravemusichall.com/",
             "perks": [
                 "Lively atmosphere",
                 "Roof terrace",
@@ -37,6 +40,7 @@
             "id": 4, 
             "name": "Water Lane Boathouse",
             "address": "Canal Wharf, Holbeck, Leeds, LS11 5PS",
+            "website": "https://waterlaneboathouse.com/",
             "perks": [
                 "Dog friendly",
                 "Canal views",
@@ -48,6 +52,7 @@
             "id": 5, 
             "name": "Roland's",
             "address": "39 Call Ln, Leeds, LS1 7BT",
+            "website": "https://www.rolandsleeds.co.uk/",
             "perks": [
                 "UK top 50 cocktail bar 2022",
                 "Terrace",

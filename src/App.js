@@ -7,14 +7,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Page Imports
-import Nav from './pages/nav.js'//------------Navigation bar import
+import Nav from './pages/nav.js'; //------------Navigation bar import
 import HomePage from './pages/home.js';
-import Drinks from './pages/Drinks.js'//------Drinks landing page import
+import Drinks from './pages/Drinks.js'; //------Drinks landing page import
+import Feedback from './pages/feedback.js';
 
 //Venue Page Imports: Drinks
 import DrinksCosy from './pages/drinks_venues_cosy'
 import DrinksClassy from './pages/drinks_venues_classy'
 import DrinksBar from './pages/drinks_venues_bar'
+import DrinksPub from './pages/drinks_venues_pub'
 
 
 
@@ -30,10 +32,12 @@ function App() {
           <Route path='/' exact element={<HomePage />} />
 
           {/* Routes to the drinks landing page and venue sub-pages */}
-          <Route path='/Drinks' exact element={<Drinks />} />
+          <Route path='/drinks' exact element={<Drinks />} />
+          <Route path='/feedback' exact element={<Feedback />} />
           <Route path='/drinks_venues_cosy' exact element={<DrinksCosy />} />
           <Route path='/drinks_venues_classy' exact element={<DrinksClassy />} />
           <Route path='/drinks_venues_bar' exact element={<DrinksBar />}></Route>
+          <Route path='/drinks_venues_pub' exact element={<DrinksPub />}></Route>
 
 
 

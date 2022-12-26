@@ -5,6 +5,7 @@
                 "id": 1, 
                 "name": "Blind Tyger",
                 "address": "5 Cross Belgrave St, Leeds LS2 8JP",
+                "website": "https://blindtyger.co.uk/blind-tyger-leeds/",
                 "perks": [
                     "Complimentary drink on arrival",
                     "Low lighting, speak easy setting",
@@ -16,6 +17,7 @@
                 "id": 2,
                 "name": "Whitelocks",
                 "address": "Turk's Head Yard, Leeds LS1 6HB",
+                "website": "https://whitelocksleeds.com/",
                 "perks": [
                     "Historic atmosphere",
                     "Outdoor seating",
@@ -27,6 +29,7 @@
                 "id": 3,
                 "name": "Crowd of Favours",
                 "address": "4-12 Harper St, Leeds LS2 7EA",
+                "website": "https://crowdoffavours.co.uk/",
                 "perks": [
                     "Exposed brick interior",
                     "Comfy seating",
@@ -38,6 +41,7 @@
                 "id": 4,
                 "name": "The Maven",
                 "address": "1 Call Ln, Leeds LS1 7DH",
+                "website": "https://www.themavenbar.com/",
                 "perks": [
                     "Low lighting",
                     "Secluded seating",
@@ -49,6 +53,7 @@
                 "id": 5,
                 "name": "Outlaws Yacht Club",
                 "address": "38 New York St, Leeds LS2 7DY",
+                "website": "https://outlawsyachtclub.com/",
                 "perks": [
                     "Comfy seating",
                     "Trendy interior",

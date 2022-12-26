@@ -30,10 +30,7 @@ function DrinksCosy () {
                                     <p className='p2'> {cosy.perks[1]} </p>
                                     <p className='p3'> {cosy.perks[2]} </p>
                             </div>
-                            <li className='additional-info-list'>Gallery</li>
-                                    <li className='coming-soon'>Coming Soon</li>
-                            <li className='additional-info-list'>Menu</li>
-                                    <li className='coming-soon'>Coming Soon</li>
+                            <li className='additional-info-list' onClick={() => window.open( cosy.website )}>Website</li>
                         
                         </div>
                     );

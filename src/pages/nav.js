@@ -17,7 +17,7 @@ function Nav() {
 
             <Container fluid>
                 <Row>
-                    <Col className='nav-column-logo'> <img src={Logo} height="100" width="100" className="Logo" alt='logo' /> </Col>
+                    <Col className='nav-column-logo' > <img src={Logo} height="100" width="100" className="Logo" alt='logo'/> </Col>
                     <Col className='nav-column'> <h1 className='title'>LittleBigLeeds</h1> </Col>
                     <Col className='nav-column'> </Col>
                 </Row>
@@ -25,7 +25,7 @@ function Nav() {
                 <Row className='navigation-row'>
                     <Col className='nav-list' > <Link to='/' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList' > Home </li></Link> </Col>
                     <Col className='nav-list' > <Link to='/drinks' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li> Drinks </li></Link> </Col>
-                    <Col className='nav-list' > <Link to='/food' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li className='navList'> Food </li></Link> </Col>
+                    <Col className='nav-list' > <Link to='/feedback' style={{ textDecoration: 'none', textDecorationColor: '#282c34' }} > <li> Feedback </li></Link> </Col>
                 </Row>
             </Container>
         </nav>

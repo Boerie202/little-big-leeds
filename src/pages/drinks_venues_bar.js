@@ -30,10 +30,7 @@ function DrinksBar() {
                                     <p className='p2'> {bar.perks[1]} </p>
                                     <p className='p3'> {bar.perks[2]} </p>
                             </div>
-                            <li className='additional-info-list'>Gallery</li>
-                                    <li className='coming-soon'>Coming Soon</li>
-                            <li className='additional-info-list'>Menu</li>
-                                    <li className='coming-soon'>Coming Soon</li>
+                            <li className='additional-info-list' onClick={() => window.open( bar.website )}>Website</li>
                         
                         </div>
                     );
