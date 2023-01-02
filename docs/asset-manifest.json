@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/little-big-leeds/static/css/main.65fe0654.css",
+    "main.js": "/little-big-leeds/static/js/main.c44f4237.js",
+    "static/media/logo-white.svg": "/little-big-leeds/static/media/logo-white.17db969c464eea57e5fa4676506fcaf9.svg",
+    "index.html": "/little-big-leeds/index.html",
+    "main.65fe0654.css.map": "/little-big-leeds/static/css/main.65fe0654.css.map",
+    "main.c44f4237.js.map": "/little-big-leeds/static/js/main.c44f4237.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65fe0654.css",
+    "static/js/main.c44f4237.js"
+  ]
+}
