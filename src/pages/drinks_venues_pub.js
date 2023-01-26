@@ -30,7 +30,7 @@ function DrinksPub() {
                                     <p className='p2'> {pub.perks[1]} </p>
                                     <p className='p3'> {pub.perks[2]} </p>
                             </div>
-                            <li className='additional-info-list' onClick={() => window.open( pub.website )}>Website</li>
+                            <li className='additional-info-list' onClick={() => window.open( pub.website )}>(Click for Website)</li>
                         
                         </div>
                     );

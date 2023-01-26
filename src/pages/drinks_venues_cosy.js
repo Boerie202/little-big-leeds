@@ -30,7 +30,7 @@ function DrinksCosy () {
                                     <p className='p2'> {cosy.perks[1]} </p>
                                     <p className='p3'> {cosy.perks[2]} </p>
                             </div>
-                            <li className='additional-info-list' onClick={() => window.open( cosy.website )}>Website</li>
+                            <li className='additional-info-list' onClick={() => window.open( cosy.website )}>(Click for Website)</li>
                         
                         </div>
                     );

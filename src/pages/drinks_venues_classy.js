@@ -30,7 +30,7 @@ function DrinksClassy() {
                                     <p className='p2'> {classy.perks[1]} </p>
                                     <p className='p3'> {classy.perks[2]} </p>
                             </div>
-                            <li className='additional-info-list' onClick={() => window.open( classy.website )}>Website</li>
+                            <li className='additional-info-list' onClick={() => window.open( classy.website )}>(Click for Website)</li>
                         
                         </div>
                     );
