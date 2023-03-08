@@ -22,7 +22,7 @@ function DrinksBar() {
                         <div key = {bar.id} className="venue">
                             
                                 <h2> {bar.name} </h2>
-                                <h6> {bar.address} </h6>
+                                <h6 onClick={() => window.open(bar.address)}> View Location </h6>
 
                             <div className='perks-section-all'>
                                  <h3>Perks</h3>

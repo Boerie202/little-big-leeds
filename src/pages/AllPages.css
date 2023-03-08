@@ -249,9 +249,9 @@ button:hover {
     font-weight: 700;
 }
 
-/*Address*/
-.venue-page h6 {
-    font-weight: 300px;
+/*Google Map*/
+.venue-page iframe {
+    border-radius: 12px;
 }
 
 /* Perks Section */
@@ -265,7 +265,7 @@ button:hover {
 
 /*Perks Section text*/
 .perks-section-all {
-    width: 60%;
+    width: 75%;
     align-items: center;
     justify-content: center;
     text-align: center;

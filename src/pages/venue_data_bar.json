@@ -3,7 +3,7 @@
         {
             "id": 1, 
             "name": "Smokestack",
-            "address": "159A Lower Briggate, Leeds, LS1 6LY",
+            "address": "https://goo.gl/maps/kQRyVADkPyFFKiPt9",
             "website": "https://smokestackleeds.co.uk/",
             "perks": [
                 "New Orloans inspired cocktails",
@@ -15,7 +15,7 @@
         {
             "id": 2, 
             "name": "Cast Iron Bar & Grill",
-            "address": "4 Trevelyan Sq, Boar Ln, Leeds, LS1 6ET",
+            "address": "https://goo.gl/maps/p41sd2qQM962PEz8A",
             "website": "https://www.tableresmarriott.com/cast-iron-bar-grill-restaurant-leeds",
             "perks": [
                 "Lower music volume",
@@ -27,7 +27,7 @@
         {
             "id": 3, 
             "name": "Belgrave Music Hall & Canteen",
-            "address": "Cross Belgrave St, Leeds, LS2 8JP",
+            "address": "https://goo.gl/maps/ka4h2W5RM5XtbZkDA",
             "website": "https://www.belgravemusichall.com/",
             "perks": [
                 "Lively atmosphere",
@@ -39,7 +39,7 @@
         {
             "id": 4, 
             "name": "Water Lane Boathouse",
-            "address": "Canal Wharf, Holbeck, Leeds, LS11 5PS",
+            "address": "https://goo.gl/maps/7Fw8tbM37x11gmpp6",
             "website": "https://waterlaneboathouse.com/",
             "perks": [
                 "Dog friendly",
@@ -51,7 +51,7 @@
         {
             "id": 5, 
             "name": "Roland's",
-            "address": "39 Call Ln, Leeds, LS1 7BT",
+            "address": "https://goo.gl/maps/v5LW6aS2A13ngKcE9",
             "website": "https://www.rolandsleeds.co.uk/",
             "perks": [
                 "UK top 50 cocktail bar 2022",

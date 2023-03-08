@@ -3,7 +3,7 @@
         {
             "id": 1, 
             "name": "The Alchemist",
-            "address": "Yorkshire House, Greek St, Leeds, LS1 5SH",
+            "address": "https://goo.gl/maps/iipw6FxQR61knVqAA",
             "website": "https://thealchemist.uk.com/venues/leeds-greek-street/",
             "perks": [
                 "Interesting drinks",
@@ -15,7 +15,7 @@
         {
             "id": 2, 
             "name": "Angelica",
-            "address": "Level 6, Trinity, 70 Boar Ln, Leeds, LS1 6HW",
+            "address": "https://goo.gl/maps/JhB9tAutXsDH6Z6x6",
             "website": "https://www.angelica-leeds.com/",
             "perks": [
                 "Great views",
@@ -27,7 +27,7 @@
         {
             "id": 3, 
             "name": "Blind Tyger",
-            "address": "5 Cross Belgrave St, Leeds, LS2 8JP",
+            "address": "https://goo.gl/maps/c3bLoBiAcxCVwN5D7",
             "website": "https://blindtyger.co.uk/blind-tyger-leeds/",
             "perks": [
                 "Excellent table service",
@@ -39,7 +39,7 @@
         {
             "id": 4, 
             "name": "Below Stairs",
-            "address": "12 S Parade, Leeds, LS1 5QS",
+            "address": "https://goo.gl/maps/4VpFvrVzdhAG1xuVA",
             "website": "https://www.belowstairsbar.com/",
             "perks": [
                 "Friendly Staff",
@@ -51,7 +51,7 @@
         {
             "id": 5, 
             "name": "The Lost and Found",
-            "address": "12 Greek Street, Leeds, LS1 5PT",
+            "address": "https://goo.gl/maps/tfZUrao6maNqgpmB9",
             "website": "https://the-lostandfound.co.uk/restaurant/leeds-greek-street",
             "perks": [
                 "Trim interior",
