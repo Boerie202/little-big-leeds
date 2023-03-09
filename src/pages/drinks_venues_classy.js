@@ -22,7 +22,7 @@ function DrinksClassy() {
                         <div key = {classy.id} className="venue">
                             
                                 <h2> {classy.name} </h2>
-                                <h6 onClick={() => window.open(classy.address)}> View Location </h6>
+                                <iframe src={classy.address} title="map"></iframe>
 
                             <div className='perks-section-all'>
                                  <h3>Perks</h3>

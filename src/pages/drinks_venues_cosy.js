@@ -22,7 +22,6 @@ function DrinksCosy () {
                         <div key = {cosy.id} className="venue">
                             
                                 <h2> {cosy.name} </h2>
-                                {/* <h6 onClick={() => window.open(cosy.address)}> View Location </h6> */}
                                 <iframe src={cosy.address} title="map"></iframe>
 
 

@@ -22,7 +22,7 @@ function DrinksPub() {
                         <div key = {pub.id} className="venue">
                             
                                 <h2> {pub.name} </h2>
-                                <h6> {pub.address} </h6>
+                                <iframe src={pub.address} title="map"></iframe>
 
                             <div className='perks-section-all'>
                                  <h3>Perks</h3>
