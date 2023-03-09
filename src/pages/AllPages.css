@@ -252,6 +252,8 @@ button:hover {
 /*Google Map*/
 .venue-page iframe {
     border-radius: 12px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Perks Section */
@@ -323,5 +325,4 @@ button:hover {
     font-size: small;
     list-style: none;
 }
-
 
